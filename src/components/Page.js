@@ -121,7 +121,7 @@ function Page(props) {
           justifyContent: "space-between",
         }}
       >
-        <Typography variant="overline">Playlists</Typography>
+        <Typography variant="overline">My-Playlists</Typography>
         <Button
           size="small"
           startIcon={<EditIcon />}
@@ -174,7 +174,7 @@ function Page(props) {
       <Helmet>
         <meta
           name="theme-color"
-          content={theme.palette.mode === "light" ? "primary.main" : "#282424"}
+          content={theme.palette.mode === "light" ? "primary.main" : "#000000"}
         />
       </Helmet>
       <Box sx={{ display: "flex" }}>
