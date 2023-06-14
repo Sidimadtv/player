@@ -111,19 +111,7 @@ function Page(props) {
             <ListItemText primary="Home" />
           </ListItemButton>
         </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton
-            onClick={() => {
-              handleDrawerToggle();
-              pathname !== "/settings" && navigate("/settings");
-            }}
-          >
-            <ListItemIcon>
-              <SettingsIcon />
-            </ListItemIcon>
-            <ListItemText primary="Settings" />
-          </ListItemButton>
-        </ListItem>
+      
       </List>
       <Divider />
       <Box
