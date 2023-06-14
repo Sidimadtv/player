@@ -2,7 +2,7 @@
   
   "version": "0.1.0",
   "description": "SidimaD IPTV Player is a web app to watch m3u and m3u8 playlists",
-  "homepage": "https://ell-mu.vercel.app/",
+  "homepage": "https://player-vert.vercel.app/",
   "author": {
     "name": "SidimaD",
     "email": "SidimaD@gmail.com"
