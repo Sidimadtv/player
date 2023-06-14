@@ -327,13 +327,13 @@ export default function Playlists() {
           <ListItemIcon>
             <LinkIcon fontSize="small" />
           </ListItemIcon>
-          <ListItemText>Add playlist from remote URL</ListItemText>
+          <ListItemText>Add a Playlist From a Remote URL</ListItemText>
         </MenuItem>
         <MenuItem onClick={handleFilePickerOpen}>
           <ListItemIcon>
             <PhoneAndroidIcon fontSize="small" />
           </ListItemIcon>
-          <ListItemText>Add playlist from device</ListItemText>
+          <ListItemText>Upload a Playlist From Your Device</ListItemText>
         </MenuItem>
       </Menu>
       <input
@@ -374,7 +374,7 @@ export default function Playlists() {
               >
                 <PlaylistAddTwoToneIcon />
               </span>{" "}
-              icon in the top right corner to add a playlist.
+              icon in the top right corner to Add a Playlist.
             </Typography>
           </Box>
         ) : null
@@ -437,7 +437,7 @@ export default function Playlists() {
         onClose={handleAddRemotePlaylistCancel}
         TransitionComponent={Transition}
       >
-        <DialogTitle>Add a playlist from remote URL</DialogTitle>
+        <DialogTitle>Add a Playlist From Remote URL</DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
