@@ -123,7 +123,7 @@ export default function Playlists() {
               title: "Unknown error",
               message: "Unknown error occurred",
             });
-        console.log("error to add playlist ", error);
+        console.log("error adding this playlist ", error);
       })
       .finally(() => {
         // Empty remote playlist name and url finally
@@ -155,8 +155,8 @@ export default function Playlists() {
             } else {
               // If this playlist already exists in the database
               setAlertMessage({
-                title: "Playlist exists",
-                message: `${playlistName} playlist already exists`,
+                title: "Playlist Already Exists",
+                message: `${playlistName} Playlist Already Exists`,
               });
             }
           });
@@ -176,7 +176,7 @@ export default function Playlists() {
         });
       } else {
         setAlertMessage({
-          title: "Failed to parse",
+          title: "Failed to Parse",
           message:
             "Failed to parse this playlist. Make sure that this is a valid playlist",
         });
@@ -364,7 +364,7 @@ export default function Playlists() {
               textAlign: "center",
             }}
           >
-            <Typography variant="body1">No playlists found.</Typography>
+            <Typography variant="body1">No Playlists Have Been Found.</Typography>
             <Typography variant="body1">
               Click on the{" "}
               <span
@@ -374,7 +374,7 @@ export default function Playlists() {
               >
                 <PlaylistAddTwoToneIcon />
               </span>{" "}
-              icon in the top right corner to Add a Playlist.
+              Icon IN The Top Right Corner to Add a Playlist.
             </Typography>
           </Box>
         ) : null
