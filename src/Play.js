@@ -183,7 +183,7 @@ export default function Play() {
   };
 
   return (
-    <Page title="SidimaD Player">
+    <Page title="S!dim@D Iptv Player">
       <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}>
         <Box sx={{ width: "100%" }}>
           <Box sx={{ flex: 1, height: "auto", position: "sticky", top: 54 }}>
