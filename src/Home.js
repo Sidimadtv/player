@@ -294,8 +294,7 @@ export default function Home() {
               top: (theme) => `${theme.mixins.toolbar.minHeight}px`,
               right: 0,
               bottom: 0,
-               background-color: "131722",
-              font : "Chakra Petch', sans-serif",
+              
               left: 0,
               p: 1,
               textAlign: "center",
