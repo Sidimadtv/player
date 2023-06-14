@@ -488,7 +488,7 @@ export default function Playlists() {
             margin="dense"
             name="name"
             autoComplete="off"
-            label="New playlist name"
+            label="Enter a New Playlist Name"
             type="text"
             fullWidth
             variant="standard"
