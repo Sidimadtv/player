@@ -281,7 +281,7 @@ export default function Home() {
   }
 
   return (
-    <Page title="Ellipto IPTV">
+    <Page title="SidimaD IPTV">
       {playlistCount !== null ? (
         playlistCount === 0 ? (
           <Box
@@ -299,7 +299,7 @@ export default function Home() {
               textAlign: "center",
             }}
           >
-            <Typography variant="body1">No playlists found.</Typography>
+            <Typography variant="body1">No Playlists Have Been Found.</Typography>
             <Typography variant="body1">
               Click on the manage button in the playlists section of the left
               drawer and add a playlist.
