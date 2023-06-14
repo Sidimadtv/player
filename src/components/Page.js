@@ -121,7 +121,7 @@ function Page(props) {
           justifyContent: "space-between",
         }}
       >
-        <Typography variant="overline">My-Playlists</Typography>
+        <Typography variant="overline">My Playlists</Typography>
         <Button
           size="small"
           startIcon={<EditIcon />}
@@ -200,7 +200,7 @@ function Page(props) {
                   flex: 1,
                   alignItems: "center",
                   bgcolor:
-                    theme.palette.mode === "light" ? "primary.main" : "#282424",
+                    theme.palette.mode === "light" ? "primary.main" : "#a00",
                   color: "#fff",
                 }}
               >
