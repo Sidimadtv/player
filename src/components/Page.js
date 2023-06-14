@@ -97,7 +97,7 @@ function Page(props) {
 
   const drawer = (
     <div>
-      <List>
+      <List style="background-color: #131722;">
         <ListItem disablePadding>
           <ListItemButton
             onClick={() => {
@@ -200,7 +200,7 @@ function Page(props) {
                   flex: 1,
                   alignItems: "center",
                   bgcolor:
-                    theme.palette.mode === "light" ? "primary.main" : "#a00",
+                    theme.palette.mode === "light" ? "primary.main" : "#e22f2f",
                   color: "#fff",
                 }}
               >
