@@ -163,7 +163,7 @@ export default function Playlists() {
       } else {
         setAlertMessage({
           title: "No data",
-          message: "No playlist data found",
+          message: "No Playlists Have Been Found",
         });
       }
     } catch {
@@ -178,7 +178,7 @@ export default function Playlists() {
         setAlertMessage({
           title: "Failed to parse",
           message:
-            "Failed to parse playlist. Make sure that this is a valid playlist",
+            "Failed to parse this playlist. Make sure that this is a valid playlist",
         });
       }
     } finally {
