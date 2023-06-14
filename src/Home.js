@@ -281,7 +281,7 @@ export default function Home() {
   }
 
   return (
-    <Page title="SidimaD IPTV">
+    <Page title="S!dim@D Iptv Player">
       {playlistCount !== null ? (
         playlistCount === 0 ? (
           <Box
@@ -302,8 +302,8 @@ export default function Home() {
           >
             <Typography variant="body1">No Playlists Have Been Found.</Typography>
             <Typography variant="body1">
-              Click on the manage button in the playlists section of the left
-              drawer and add a playlist.
+              Click On The Manage Button in the Playlists Section On The Left
+              Side and Add a Playlist.
             </Typography>
           </Box>
         ) : null
